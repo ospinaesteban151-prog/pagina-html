@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gato Karen</title>
+<style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f5f5f5;
+    font-family:Arial;
+}
+
+.contenedor{
+    text-align:center;
+}
+
+.corazon{
+    font-size:150px;
+    color:#1e90ff;
+    animation: latido 0.001s infinite;
+}
+
+@keyframes latido{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+
+.gato{
+    font-size:80px;
+}
+
+.texto{
+    position:relative;
+    top:-120px;
+    font-size:40px;
+    color:rgb(3, 3, 3);
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="contenedor">
+    <div class="gato"></div>
+    <div class="corazon"></div>
+    <div class="texto">Karen</div>
+</div>
+
+</body>
+</html>

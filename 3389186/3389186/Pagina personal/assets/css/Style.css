@@ -1,0 +1,61 @@
+/* 1. Configuración General */
+body {
+    background-color: #000000; /* Un negro un poco más suave, más elegante */
+    color: #e0e0e0;           /* Blanco grisáceo para que no canse la vista */
+    font-family: 'Courier New', Courier, monospace; /* Fuente estilo código */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;      /* Centra todo el contenido */
+}
+
+/* 2. Estilo del Título */
+h1 {
+    color: #00ff41;           /* Verde Matrix */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 8px #00ff41;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* 3. Estilo del Menú (La lista) */
+ul {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+    list-style: none;         /* Quita los puntos de la lista */
+    padding: 0;
+    display: flex;            /* Pone los elementos uno al lado del otro */
+    gap: 20px;                /* Espacio entre botones */
+    margin-top: 30px;
+}
+
+/* 4. Estilo de los Enlaces (Botones) */
+li a {
+  display: inline-block;
+  min-width: 100px;  
+  width: auto;
+padding: 10px 15px; 
+white-space: nowrap; 
+    color: #00ff41;
+    text-decoration: none;    /* Quita el subrayado */
+    padding: 10px 20px;
+    border: 1px solid #00ff41;
+    border-radius: 5px;       /* Bordes un poco redondeados */
+    transition: all 0.3s ease; /* Hace que el cambio sea suave *
+    text-align: center;
+}
+
+/* 5. Efecto al pasar el mouse (Hover) */
+li a:hover {
+    background-color: #00ff41;
+    color: #000;              /* Invierte los colores */
+    box-shadow: 0 0 15px #00ff41;
+}
+
+
+
